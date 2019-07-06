@@ -1,7 +1,8 @@
 import {courseSchema} from "../db";
 
 const today = new Date();
-const year = today.getFullYear();
+// const year = today.getFullYear();
+const year = 2019
 
 export class CourseService {
     constructor() {
